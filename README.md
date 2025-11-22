@@ -18,18 +18,18 @@ This project implements a complete machine‑learning pipeline for binary classi
 
 ## Project structure
 .
- ├── config/
- │   └── config.yaml
- │
- ├── src/
- │   ├── data_loader.py
- │   ├── features.py
- │   ├── models.py
- │   ├── evaluate.py
- │   └── utils.py
- │
- ├── EDA.ipynb
- └── main.py
+├── config/
+│   └── config.yaml
+│
+├── src/
+│   ├── data_loader.py
+│   ├── features.py
+│   ├── models.py
+│   ├── evaluate.py
+│   └── utils.py
+│
+├── EDA.ipynb
+└── main.py
 
 
 - `config/config.yaml`  
@@ -99,5 +99,3 @@ Set this to `True` to enable evaluation plots:
 
 - Confusion matrix
 - ROC AUC curve
-
-For each model, when `plots` is `True`, the script calls:
