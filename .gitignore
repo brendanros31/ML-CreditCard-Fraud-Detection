@@ -1,0 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+
+# Data and models
+datasets/
+*.tsv
+*.json
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+models/
+outputs/
+checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
