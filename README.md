@@ -17,19 +17,22 @@ This project implements a complete machine‑learning pipeline for binary classi
 ---
 
 ## Project structure
-.
-├── config/
-│   └── config.yaml
-│
-├── src/
-│   ├── data_loader.py
-│   ├── features.py
-│   ├── models.py
-│   ├── evaluate.py
-│   └── utils.py
-│
-├── EDA.ipynb
-└── main.py
+```
+data/
+  raw/
+    creditcard.csv
+
+src/
+  data_loader.py
+  evaluate.py
+  features.py
+  models.py
+  utils.py
+
+EDA.ipynb
+main.py
+config/config.yaml
+```
 
 
 - `config/config.yaml`  
