@@ -3,7 +3,7 @@ from src import data_loader, features, models, evaluate, utils
 import yaml
 
 
-def __main__():
+def main():
     plots = False
 
     # Load dataset
@@ -52,4 +52,5 @@ def __main__():
 
 
 
-__main__()
+if __name__ == "__main__":
+    main()
